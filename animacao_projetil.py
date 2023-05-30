@@ -33,3 +33,5 @@ anim = matplotlib.animation.FuncAnimation(fig, animate, frames=100, interval=10)
 f = r"Animacao.mp4" 
 writervideo = matplotlib.animation.FFMpegWriter(fps=60) 
 anim.save(f, writer=writervideo,dpi =150)
+
+print("Aqui vamos fazer uma alteração")
